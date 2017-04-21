@@ -1,0 +1,29 @@
+{
+  "name": "wechat-api-refine",
+  "version": "1.0.0",
+  "description": "简单从容地调用微信API。",
+  "main": "libs/index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "tsc",
+    "build:example": "nodemon --exec ./node_modules/.bin/ts-node -- ./examples/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgdsh/wechat-api-refine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgdsh/wechat-api-refine/issues"
+  },
+  "homepage": "https://github.com/bgdsh/wechat-api-refine#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.13",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  },
+  "typings": "lib/index"
+}

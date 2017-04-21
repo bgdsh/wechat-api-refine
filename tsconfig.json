@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "outDir": "lib",
+        "declaration": true,
+        "watch": true
+    },
+    "compileOnSave": true,
+    "include": [
+        "src"
+    ]
+}
