@@ -1,4 +1,7 @@
 # wechat-api-refine
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/bgdsh/wechat-api-refine.svg)](https://greenkeeper.io/)
+
 简单从容地调用微信API。
 
 # Todo
